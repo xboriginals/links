@@ -2,42 +2,42 @@ const redirectLinks = [
     {
         label: "Portal Xbox Originals",
         redirectUrl: "https://xboriginals.com.br",
-        iconSrc: "/assets/imgs/icons/xboriginals.png",
+        iconSrc: "./assets/imgs/icons/xboriginals.png",
     },
     {
         label: "X (Twitter)",
         redirectUrl: "https://twitter.com/XBOriginals",
-        iconSrc: "/assets/imgs/icons/x.png",
+        iconSrc: "./assets/imgs/icons/x.png",
     },
     {
         label: "Facebook",
         redirectUrl: "https://twitter.com/XBOriginals",
-        iconSrc: "/assets/imgs/icons/Facebook.png",
+        iconSrc: "./assets/imgs/icons/Facebook.png",
     },
     {
         label: "Discord",
         redirectUrl: "https://discord.com/invite/3j2kAUxGvc",
-        iconSrc: "/assets/imgs/icons/discord.svg",
+        iconSrc: "./assets/imgs/icons/discord.svg",
     },
     {
         label: "Telegram - Notícias",
         redirectUrl: "https://t.me/XBOriginals",
-        iconSrc: "/assets/imgs/icons/telegram.png",
+        iconSrc: "./assets/imgs/icons/telegram.png",
     },
     {
         label: "Telegram - Grupo",
         redirectUrl: "https://t.me/XBOriginalsGrupo",
-        iconSrc: "/assets/imgs/icons/telegram.png",
+        iconSrc: "./assets/imgs/icons/telegram.png",
     },
     {
         label: "YouTube",
         redirectUrl: "https://youtube.com/channel/UCE4rJvmj2scTFA-mJiRpl5A",
-        iconSrc: "/assets/imgs/icons/youtube.png",
+        iconSrc: "./assets/imgs/icons/youtube.png",
     },
     {
         label: "Twitch",
         redirectUrl: "https://twitch.tv/xboxoriginals",
-        iconSrc: "/assets/imgs/icons/twitch.png",
+        iconSrc: "./assets/imgs/icons/twitch.png",
     }
 ]
 const RedirectLink = (object, index) => {
