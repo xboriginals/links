@@ -42,7 +42,7 @@ const secondHalfRedirectLinksDesktop = [
         id: "facebook",
         label: "Facebook",
         redirectUrl: "https://facebook.com/XboxOriginals",
-        iconSrc: "./assets/imgs/icons/facebook.png",
+        iconSrc: "./assets/imgs/icons/facebook-icon.png",
     },
     {
         id: "discord",
