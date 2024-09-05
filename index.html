@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
+    <script lang="javascript" src="script-mobile.js"></script>
+    <script lang="javascript" src="script-desktop.js"></script>
     <script lang="javascript" src="script.js"></script>
     <title>Xbox Originals Links</title>
     <link rel="icon" type="image/x-icon" href="./assets/imgs/favicon.png">
@@ -13,7 +15,7 @@
 </head>
 
 <body>
-    
+
     <img width="300" height="300" src="./assets/imgs/xbox_originals_logo.png">
 
     <div class="email-box">
@@ -22,8 +24,15 @@
     </div>
 
     <nav class="buttons">
-        <ul id="list-wrapper"></ul>
+        <div id="portal-wrapper"></div>
+        <div id="list-wrapper-desktop">
+            <ul id="list-first-half"></ul>
+            <ul id="list-second-half"></ul>
+        </div>
+        <ul id="list-wrapper-mobile"></ul>
     </nav>
+
+    <footer id="footer-wrapper"></footer>
 </body>
 
 </html>

@@ -21,7 +21,6 @@ body {
     background-repeat: repeat;
     background-size: 100px 100px;
     animation: animatedBackground 20s linear infinite;
-    /* transform: rotate(45deg); */
 }
 
 
@@ -58,7 +57,7 @@ button {
 
 .email-box span {
     margin-top: 8px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 ul {
@@ -71,16 +70,8 @@ ul {
     padding-left: 0 !important;
 }
 
-li {
-    width: 100%;
-    margin-bottom: 25px;
-}
-
-li:last-child {
-    margin-bottom: 50px;
-}
-
-.spoiler, .hidden {
+.spoiler,
+.hidden {
     display: none !important;
 }
 
@@ -96,11 +87,13 @@ li:last-child {
     width: 100%;
     width: 300px;
     background-color: #fff;
-    border: 4px solid #7bda4b;
+    border: 4px solid;
+    border-color: #7bda4b;
     position: relative;
     padding: 0.5rem 0.8rem;
     cursor: pointer;
     text-align: start;
+    transition: border-color .2s;
 }
 
 button::before {
@@ -112,6 +105,85 @@ button::before {
     height: 98%;
     background-color: rgb(87, 197, 22);
     background-size: 12px, 100%;
-    border: 0.4rem solid #7bda4b;
+    border: 0.4rem solid;
+    border-color: #7bda4b;
+    transition: border-color .2s, background-color .2s;
     z-index: -2;
+}
+
+.link-btn:hover {
+    border-color: #468328;
+    transition: border-color .2s;
+}
+
+button:hover::before {
+    border-color: #468328;
+    transition: border-color .2s, background-color .2s;
+    background-color: #468328;
+
+}
+
+.link-btn.agregator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link-btn.agregator .agregator-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px;
+}
+
+nav.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+
+#portal-wrapper {
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+#list-wrapper-desktop {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+
+#list-wrapper-desktop li,
+#list-wrapper-mobile li {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+#list-wrapper-desktop li:last-child,
+#list-wrapper-mobile li:last-child {
+    margin-bottom: 50px;
+}
+
+.agregator-link {
+    color: #000;
+    transition: color .1s;
+}
+
+.agregator-link:hover {
+    color: #136602;
+    transition: color .1s;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: #FFF;
+    align-items: center;
+    padding-top: 24px;
+    font-size: 11px;
 }
