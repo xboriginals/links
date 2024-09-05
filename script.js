@@ -31,23 +31,22 @@ function redirecionarParaUrlPeloId(id) {
 
 function gerarAlertRecrutamento() {
     console.info(`               
-                                           ███
-                                          ███
-                                         ███
+                                            ██
+                                           ██
 
-                █████████  ███       ██████████   ███
-                ███   ███  ███       ███    ███   ███
-                ███   ███  ███       ██████████   ███
-                ███   ███  ███       ███    ███ 
-                █████████  ████████  ███    ███   ███
+                    █████████ ███      █████████  ███
+                    ███   ███ ███      ███   ███  ███
+                    ███   ███ ███      █████████  ███
+                    ███   ███ ███      ███   ███  
+                    █████████ ████████ ███   ███  ███
 
           Se você está lendo isso, é porque sabe das artimanhas.
         Mas o que talvez você não saiba, é que estamos recrutando.
     Caso tenha interesse nos contate através de nossas redes sociais.
 
-
-                Agregador desenvolvido por: Vinicius Marcante
-                        https://x.com/VMarcante
+                      Agregador desenvolvido por: 
+                            Vinicius Marcante
+                         https://x.com/VMarcante
         `);
 }
 
