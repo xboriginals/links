@@ -103,7 +103,6 @@ function renderizarBotoes() {
 
 function manipularRedimensionamento() {
     const novoStatusTelaMobile = window.matchMedia("(max-width: 600px)").matches;
-    console.log({ novoStatusTelaMobile, isMobileScreen })
     if (novoStatusTelaMobile != isMobileScreen) {
         isMobileScreen = novoStatusTelaMobile;
         renderizarBotoes();
